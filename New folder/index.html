@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+<title> DERS 2 </title>
+</head>
+
+<body>
+
+<h1> Tablo </h1>
+
+<!--- tablo alanı belirler--->
+<table style = "border: 2px solid black;" >
+<!--- tablo içine satır tanımlar --->
+<tr>
+<!-- tablo içine hücre tanımlar --->
+
+<td style = "border: 1px dotted red;"> 1. satır 1. hücre </td>
+<td style = "border: 1px dotted red;"> 1. satır 2. hücre </td>
+<td style = "border: 1px dotted red;"> 1. satır 3. hücre </td>
+</tr>
+
+<tr>
+<td style = "border: 1px dotted blue;"> 2. satır 1. hücre </td>
+<td colspan = 2 style = "border: 1px dotted blue;"> 2. satır 2. hücre </td>
+<!---<td style = "border: 1px dotted blue;"> 2. satır 3. hücre </td> --->
+</tr>
+
+<tr>
+<td>
+<img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqfDIuVzSfAz9kmqatOJht0c7EEQRPbqeOZw&usqp=CAU">
+</td>
+<td>
+<img src = "a.png">
+</td>
+<td>
+<img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvJmvRt2Pbz-x8E5FPUkLqXTiiKGSlu_KZ0g&usqp=CAU">
+</td>
+</tr>
+</table>
+
+<!--- büyüklüğe göre birden fazla göstermemize yarar --->
+<picture>
+<!--picture için kaynak tanımlar-->
+<source media="(min-width: 800px)" srcset="https://www.shutterstock.com/image-photo/astronaut-spacewalk-cosmic-art-science-260nw-540015799.jpg ">
+<source media="(min-width: 800px)"srcset="https://www.shutterstock.com/image-photo/astronaut-spacewalk-cosmic-art-science-260nw-540015799.jpg ">
+</picture>
+
+</body>
+</html>

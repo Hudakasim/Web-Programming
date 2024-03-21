@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #080808;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  /* Yatay eksende içerikleri ortalar */
+  justify-content: space-between;
+  /* İçerikleri ana eksende eşit olarak dağıtır */
+  position: fixed;
+  /* Navigasyon çubuğunu sabitler */
+  background-color: #d35050;
+  top: 0;
+  width: 100%;
+  left: 0;
+  padding: 0.6rem 2rem;
+  top: 0;
+}
+
+.logo {
+  width: 100px;
+}
+
+nav ul li {
+  display: inline-block;
+  /* öğelerini yanyana sıralar */
+  margin: 10px 20px;
+  /* öğeleri arasında boşluk bırakır */
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  /* alyt çizgiyi kaldırı */
+  font-size: 18px;
+}
+
+.backgroungImg {
+  flex: 1;
+  flex-basis: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.backgroungImg img {
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+}
